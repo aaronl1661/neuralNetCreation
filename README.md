@@ -1,4 +1,5 @@
 # neuralNetCreation
+REPORT IN DOCX FILE
 Project 3 Report
 2.5 Overfitting + 2.7
 Using a random sample of 2000 images per epoch, no overfitting occurs. This can be seen by how the validation loss and accuracy very nearly matches that of the training set, in Figure 1. It is important to note that while usually validation/testing accuracy should not be higher than training accuracy, I run the validation set after the training set updates the model’s weights in each epoch. Especially in the beginning, this is why the validation loss and accuracy performs better than the training.
